@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5tW-aj-Oi8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5tW-aj-Oi8">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -38,7 +38,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d60-Ad-tB1">
                                         <rect key="frame" x="10" y="0.0" width="100" height="56"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="Y63-58-sUz"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Y63-58-sUz"/>
                                             <constraint firstAttribute="height" constant="56" id="ovr-lY-cYj"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -69,6 +69,7 @@
                                     <constraint firstItem="fsC-Jc-0lt" firstAttribute="leading" secondItem="oMN-x8-eAw" secondAttribute="leading" id="Z0X-H2-FZa"/>
                                     <constraint firstItem="p88-x7-8Ot" firstAttribute="leading" secondItem="oMN-x8-eAw" secondAttribute="leading" id="dp8-bR-w0k"/>
                                     <constraint firstAttribute="trailing" secondItem="Xfc-1V-gfC" secondAttribute="trailing" id="lom-kl-daZ"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="d60-Ad-tB1" secondAttribute="trailing" constant="10" id="mmg-Xc-780"/>
                                     <constraint firstItem="Xfc-1V-gfC" firstAttribute="top" secondItem="oMN-x8-eAw" secondAttribute="top" id="ua3-Sj-tGz"/>
                                     <constraint firstItem="d60-Ad-tB1" firstAttribute="top" secondItem="oMN-x8-eAw" secondAttribute="top" id="x36-7r-rf3"/>
                                     <constraint firstItem="fsC-Jc-0lt" firstAttribute="top" secondItem="Xfc-1V-gfC" secondAttribute="bottom" constant="20" id="zne-bb-Awb"/>
@@ -347,7 +348,7 @@
     <resources>
         <image name="right_arrow_icon" width="170.5" height="170.5"/>
         <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
